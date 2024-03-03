@@ -1,0 +1,14 @@
+package io.github.durgaprasad.collections;
+
+import java.util.HashMap;
+import java.util.Map.Entry;
+
+public class HashMapDemo {
+	public static void main(String args[]) {
+		HashMap<String, Integer> map = new HashMap<>();
+		
+		map.put("a", 10);
+		map.put("b", 20);
+		map.put("c", 30);
+	}
+}
